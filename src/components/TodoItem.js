@@ -9,6 +9,7 @@ class TodoItem extends Component {
 				checked={this.props.todo.completed}
 				onChange={() => this.props.handleChangeProps(this.props.todo.id)}
 			/>
+			{this.props.todo.title}
 			<button onClick={() => this.props.deleteTodoProps(this.props.todo.id)}>
 				Delete
 			</button>

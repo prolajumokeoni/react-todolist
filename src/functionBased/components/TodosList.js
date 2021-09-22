@@ -1,7 +1,7 @@
 import React from "react"
-import TodoItem from "./TodoItem"
+import TodoItem from './TodoItem';
 
-const TodosList = props => {
+const TodosList = props =>  {
   return (
     <ul>
       {props.todos.map(todo => (
